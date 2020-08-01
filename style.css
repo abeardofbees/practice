@@ -1,0 +1,49 @@
+html {
+	background-image: url("bees.jpg");
+}
+
+
+
+
+.nav {
+  	
+	padding: 2px;
+	margin: auto;
+	width: 98%;
+	list-style: none;
+	background-color: rgba(255, 233, 34, 0.6); 
+	font-size: 3vw;
+	border: 20px solid rgba(0, 0, 0, 0.9);
+	
+}
+
+.fixed-top {
+  display: flex;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 500px;
+}
+
+
+li {
+	padding: 30px;
+	margin: auto;
+	font-family: 'Staatliches', cursive;
+	color: white;
+	text-shadow: 2px 2px 2px #000000;
+}
+
+li:hover {
+	font-size: 120%;
+}
+
+.chunk {
+	display: flex;
+	justify-content: center;
+	align-items: stetch;
+	padding: 30px;
+	margin-top: 200px;
+}
